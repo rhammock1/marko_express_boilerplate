@@ -5,8 +5,10 @@
   "dependencies": {
     "@marko/express": "^1.0.0",
     "compression": "^1.7.4",
+    "dotenv": "^16.0.1",
     "express": "^4.17.1",
     "marko": "^5.17.2",
+    "pg": "^8.7.3",
     "raptor-pubsub": "^1.0.5"
   },
   "devDependencies": {
@@ -14,7 +16,11 @@
     "@marko/webpack": "^9.2.0",
     "css-loader": "^6.5.0",
     "css-minimizer-webpack-plugin": "^3.1.1",
-    "marked": "^3.0.8",
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsdoc": "^39.2.7",
+    "marked": "^4.0.16",
     "mini-css-extract-plugin": "^2.4.3",
     "spawn-server-webpack-plugin": "^6.1.0",
     "webpack": "^5.60.0",

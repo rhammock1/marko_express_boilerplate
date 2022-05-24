@@ -2,7 +2,7 @@ const marked = require("marked");
 
 module.exports = function(path, t) {
   const bodyText = removeIndentation(path.get("body.body.0.value").node);
-  const html = marked(bodyText);
+  const html = marked.parse(bodyText);
   path.replaceWith(t.markoPlaceholder(t.stringLiteral(html), false));
 };
 

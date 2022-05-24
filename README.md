@@ -8,6 +8,8 @@ npm install
 npm run dev
 ```
 
+#### Don't forget to update example.env
+
 ## Production Build
 ```bash
 npm run build
